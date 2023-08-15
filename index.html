@@ -1,103 +1,60 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+	<meta charset="UTF-8" />
     <meta name="description" content="A simple homepage for your browser" />
     <meta name="keywords" content="NewTab, Extension" />
     <meta name="author" content="4rt3mi5" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="ico/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script async type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
     <title>HOME</title>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'sha256-HASH-OF-YOUR-SCRIPT-FILE'">
   </head>
-  <body>
-    <div class="container" id="contFocus">
-      <div class="left-container">
-        <div class="time-holder">
-          <p id="time"></p>
-        </div>
-        </br>
-        <div class="gif" id="imgCont">
-          <!-- <img src="ico/ac3.webp" id="ac" height="300"> -->
-          <img src="ico/ac1.png" id="ac" height="300" />
-        </div>
-        <div class="modeContainer">
-          <button class="mode_class" id="modeButton">
-            <img src="ico/light.png" id="mode" height="24" />
-          </button>
-        </div>
-      </div>
-      <div class="right-container">
-        <div class="head">
-          <form id="search-bar" name="search-bar">
+  <main>
+		<body>
+			<div class="main-content">
+				<img src="static/pfp.webp" alt="A drawing of me.">
+				<div class="text">
+					<h1><span id="greeting">Good bye, </span><span id="name">Sandeep</span>.</h1>
+					<section class="time">
+						<div id="date">Jan 1st, 2002</div>
+						<div id="clock">00:00:00</div>
+					</section>
+					<div id="clock"></div>
+					<form id="search-bar" name="search-bar">
             <div class="form-group">
               <div id="terminal-content"></div>
               <div class="terminalInput" id="terminalSearch"></div>
             </div>
           </form>
-        </div>
-        <div class="bookmarks">
-          <div class="category">
-            <div class="links" id="links_a">
-              <li>
-                <a href="https://github.com/54nd339">Github</a>
-              </li>
-              <li>
-                <a href="https://leetcode.com/problemset/all/">LeetCode</a>
-              </li>
-              <li>
-                <a href="https://www.overleaf.com/project">Overleaf</a>
-              </li>
-              <li>
-                <a href="https://replit.com/@54nd339">Repl.it</a>
-              </li>
-              <li>
-                <a href="https://app.hackthebox.com/challenges">HackTheBox</a>
-              </li>
-            </div>
-          </div>
-          <div class="category">
-            <div class="links" id="links_b">
-              <li>
-                <a href="https://sandeepswain.dev">Portfolio</a>
-              </li>
-              <li>
-                <a href="https://fitgirl-repacks.site/">5 July</a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/">Instagram</a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/">LinkedIn</a>
-              </li>
-              <li>
-                <a href="https://www.reddit.com/">Reddit</a>
-              </li>
-            </div>
-          </div>
-          <div class="category">
-            <div class="links" id="links_c">
-              <li>
-                <a href="https://chat.openai.com/chat">ChatGPT</a>
-              </li>
-              <li>
-                <a href="https://app.netlify.com/teams/54nd339/overview">Netlify</a>
-              </li>
-              <li>
-                <a href="https://www.desmos.com/calculator">Desmos</a>
-              </li>
-              <li>
-                <a href="https://domains.google.com/registrar/sandeepswain.dev">Domains</a>
-              </li>
-              <li>
-                <a href="https://console.firebase.google.com/">Firebase</a>
-              </li>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+				</div>
+			</div>
+			<section class="links">
+				<div class="column">
+					<h3>Coding</h3>
+					<a href="https://github.com/54nd339"><h4>Github</h4></a>
+					<a href="https://leetcode.com/problemset/all/"><h4>LeetCode</h4></a>
+					<a href="https://www.overleaf.com/project"><h4>Overleaf</h4></a>
+					<a href="https://replit.com/@54nd339"><h4>Repl.it</h4></a>
+					<a href="https://app.hackthebox.com/challenges"><h4>HackTheBox</h4></a>
+				</div>
+				<div class="column">
+					<h3>Social</h3>
+					<a href="https://sandeepswain.dev"><h4>Portfolio</h4></a>
+					<a href="https://fitgirl-repacks.site/"><h4>FitGirl</h4></a>
+					<a href="https://www.instagram.com/"><h4>Instagram</h4></a>
+					<a href="https://www.linkedin.com/in/"><h4>LinkedIn</h4></a>
+					<a href="https://www.reddit.com/"><h4>Reddit</h4></a>
+				</div>
+				<div class="column">
+					<h3>Utils</h3>
+					<a href="https://chat.openai.com/chat"><h4>ChatGPT</h4></a>
+					<a href="https://app.netlify.com/teams/54nd339/overview"><h4>Netlify</h4></a>
+					<a href="https://www.desmos.com/calculator"><h4>Desmos</h4></a>
+					<a href="https://domains.google.com/registrar/sandeepswain.dev"><h4>Domains</h4></a>
+					<a href="https://console.firebase.google.com/"><h4>Firebase</h4></a>
+				</div>
+			<section>
+		</body>
+	</main>
 </html>
