@@ -6,7 +6,7 @@
 <br>
 
 <p align="center">
-Discover a visually captivating and customizable browser startpage designed to elevate your browsing experience and productivity. This sleek platform offers a range of default themes to match your style, along with a toggleable night-mode for comfortable nighttime browsing. With a personalized search bar, you can easily choose your preferred search engine.
+Discover a captivating and customizable browser startpage designed to elevate your browsing experience and productivity. This sleek platform offers a range of default themes to match your style, along with a toggleable night-mode for comfortable nighttime browsing. With a personalized search bar, you can easily choose your preferred search engine.
 </p>
 
 <hr>
