@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> Aesthetic Startpage </h1>
+  <h1> Aesthetic Start page </h1>
   <i> A distraction free, customizable startpage. </i>
 </div>
 
